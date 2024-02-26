@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemHunter", "GemHunter\GemHunter.csproj", "{ED7B667F-2D20-47DE-A69D-954C5FBD8ECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED7B667F-2D20-47DE-A69D-954C5FBD8ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7B667F-2D20-47DE-A69D-954C5FBD8ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7B667F-2D20-47DE-A69D-954C5FBD8ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7B667F-2D20-47DE-A69D-954C5FBD8ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D124E036-74BE-408A-9673-D0250C4987FE}
+	EndGlobalSection
+EndGlobal

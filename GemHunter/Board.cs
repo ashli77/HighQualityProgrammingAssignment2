@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-
-namespace GemHunter
+﻿namespace GemHunter
 {
     public class Board
     {
@@ -81,7 +79,8 @@ namespace GemHunter
 
             return true; // Move is valid
         }
-
+        // Add the following method to the Board class
+        
         /// <summary>
         /// Checks if the player's new position contains a gem and updates the player's GemCount.
         /// </summary>
@@ -97,7 +96,7 @@ namespace GemHunter
                     x--;
                     break;
                 case 'D':
-                    x++;
+                   x++;
                     break;
                 case 'L':
                     y--;
@@ -117,6 +116,18 @@ namespace GemHunter
                 Grid[x, y].Occupant = "-";
             }
         }
+        public bool AreGemsRemaining()
+        {
+            foreach (Cell cell in Grid)
+            {
+                if (cell.Occupant == "G")
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
 
         private void InitializeBoard()
         {
@@ -133,6 +144,7 @@ namespace GemHunter
                 }
             }
 
+
             Random random = new Random();
             for (int i = 0; i < 4; i++)
             {
@@ -148,7 +160,7 @@ namespace GemHunter
             Grid[0, 0].Occupant = "P1";
             Grid[5, 5].Occupant = "P2";
             isBoardInitialized = true;
-        }
+        } 
         #endregion
     }
 }
